@@ -41,13 +41,17 @@ body {
 }
 
 .btn {
-  background-color: black;
+  background-color: rgb(35, 33, 33);
   border: none;
   border-radius: 8px;
   color: whitesmoke;
   padding: 6px 12px;
   cursor: pointer;
   font-size: 24px;
+}
+
+.btn:hover {
+  background-color: black;
 }
 
 .info-section {
@@ -87,9 +91,10 @@ h1 {
 
 .contact-details {
   text-align: center;
-  background-color: rgb(35, 176, 176);
+  background-color: #bea11d;
   width: 500px;
   margin: 100px auto;
   padding: 20px;
   border-radius: 18px;
+  color: rgb(34, 31, 31);
 }
