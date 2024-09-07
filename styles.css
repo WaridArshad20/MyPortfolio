@@ -1,0 +1,94 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-color: #ebc934;
+}
+
+#logo {
+  width: 100px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  border: 5px solid rgb(0, 0, 0);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.menu-links {
+  margin-right: 10px;
+}
+
+.menu-links a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+
+.hero-section {
+  display: flex;
+  margin-top: 60px;
+}
+
+#avatar {
+  width: 400px;
+}
+
+.btn {
+  background-color: black;
+  border: none;
+  border-radius: 8px;
+  color: whitesmoke;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.info-section {
+  margin: 100px 0px 0 20px;
+  /* background-color: blue; */
+}
+
+.avatar-section {
+  margin-left: 500px;
+  margin-top: 20px;
+  /* background-color: green; */
+}
+
+.icon {
+  display: block;
+}
+
+.icon-section {
+  margin-left: 150px;
+  margin-top: 80px;
+  /* background-color: red; */
+}
+
+button a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+h3 {
+  color: #474a57;
+  margin: 0 0 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.contact-details {
+  background-color: rgb(35, 176, 176);
+  width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 18px;
+}
